@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3C5EFC178CB94B0042B7A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3C5EFB178CB94B0042B7A4 /* Default-568h@2x.png */; };
 		ACCEC3B3178C96DD00DBD1B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3B2178C96DD00DBD1B5 /* UIKit.framework */; };
 		ACCEC3B5178C96DD00DBD1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3B4178C96DD00DBD1B5 /* Foundation.framework */; };
 		ACCEC3B7178C96DD00DBD1B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3B6178C96DD00DBD1B5 /* CoreGraphics.framework */; };
@@ -18,9 +19,14 @@
 		ACCEC3F0178C9E5200DBD1B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3EC178C9E5200DBD1B5 /* Default@2x.png */; };
 		ACCEC3F1178C9E5200DBD1B5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3ED178C9E5200DBD1B5 /* Icon.png */; };
 		ACCEC3F2178C9E5200DBD1B5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3EE178C9E5200DBD1B5 /* Icon@2x.png */; };
+		ACCEC3F9178C9F0300DBD1B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3F7178C9EE700DBD1B5 /* QuartzCore.framework */; };
+		ACCEC3FA178C9F0300DBD1B5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3F3178C9EE200DBD1B5 /* GLKit.framework */; };
+		ACCEC3FB178C9F0300DBD1B5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3F4178C9EE200DBD1B5 /* OpenGLES.framework */; };
+		ACCEC401178C9F9D00DBD1B5 /* GLTriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEC400178C9F9D00DBD1B5 /* GLTriangleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC3C5EFB178CB94B0042B7A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		ACCEC3AF178C96DD00DBD1B5 /* OpenGL Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL Triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCEC3B2178C96DD00DBD1B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ACCEC3B4178C96DD00DBD1B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +42,11 @@
 		ACCEC3EC178C9E5200DBD1B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ACCEC3ED178C9E5200DBD1B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		ACCEC3EE178C9E5200DBD1B5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		ACCEC3F3178C9EE200DBD1B5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		ACCEC3F4178C9EE200DBD1B5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ACCEC3F7178C9EE700DBD1B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ACCEC3FF178C9F9D00DBD1B5 /* GLTriangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleViewController.h; sourceTree = "<group>"; };
+		ACCEC400178C9F9D00DBD1B5 /* GLTriangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTriangleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCEC3F9178C9F0300DBD1B5 /* QuartzCore.framework in Frameworks */,
+				ACCEC3FA178C9F0300DBD1B5 /* GLKit.framework in Frameworks */,
+				ACCEC3FB178C9F0300DBD1B5 /* OpenGLES.framework in Frameworks */,
 				ACCEC3B3178C96DD00DBD1B5 /* UIKit.framework in Frameworks */,
 				ACCEC3B5178C96DD00DBD1B5 /* Foundation.framework in Frameworks */,
 				ACCEC3B7178C96DD00DBD1B5 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +87,9 @@
 		ACCEC3B1178C96DD00DBD1B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACCEC3F7178C9EE700DBD1B5 /* QuartzCore.framework */,
+				ACCEC3F3178C9EE200DBD1B5 /* GLKit.framework */,
+				ACCEC3F4178C9EE200DBD1B5 /* OpenGLES.framework */,
 				ACCEC3B2178C96DD00DBD1B5 /* UIKit.framework */,
 				ACCEC3B4178C96DD00DBD1B5 /* Foundation.framework */,
 				ACCEC3B6178C96DD00DBD1B5 /* CoreGraphics.framework */,
@@ -86,6 +103,8 @@
 				ACCEC3D0178C99D800DBD1B5 /* iPhone.storyboard */,
 				ACCEC3C1178C96DD00DBD1B5 /* GLAppDelegate.h */,
 				ACCEC3C2178C96DD00DBD1B5 /* GLAppDelegate.m */,
+				ACCEC3FF178C9F9D00DBD1B5 /* GLTriangleViewController.h */,
+				ACCEC400178C9F9D00DBD1B5 /* GLTriangleViewController.m */,
 				ACCEC3B9178C96DD00DBD1B5 /* Supporting Files */,
 			);
 			path = "OpenGL Triangle";
@@ -105,6 +124,7 @@
 		ACCEC3D2178C9CAC00DBD1B5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC3C5EFB178CB94B0042B7A4 /* Default-568h@2x.png */,
 				ACCEC3EB178C9E5200DBD1B5 /* Default.png */,
 				ACCEC3EC178C9E5200DBD1B5 /* Default@2x.png */,
 				ACCEC3ED178C9E5200DBD1B5 /* Icon.png */,
@@ -173,6 +193,7 @@
 				ACCEC3F0178C9E5200DBD1B5 /* Default@2x.png in Resources */,
 				ACCEC3F1178C9E5200DBD1B5 /* Icon.png in Resources */,
 				ACCEC3F2178C9E5200DBD1B5 /* Icon@2x.png in Resources */,
+				AC3C5EFC178CB94B0042B7A4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +222,7 @@
 			files = (
 				ACCEC3BF178C96DD00DBD1B5 /* main.m in Sources */,
 				ACCEC3C3178C96DD00DBD1B5 /* GLAppDelegate.m in Sources */,
+				ACCEC401178C9F9D00DBD1B5 /* GLTriangleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +337,7 @@
 				ACCEC3CE178C96DD00DBD1B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
