@@ -13,9 +13,11 @@
 		ACCEC3BD178C96DD00DBD1B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3BB178C96DD00DBD1B5 /* InfoPlist.strings */; };
 		ACCEC3BF178C96DD00DBD1B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEC3BE178C96DD00DBD1B5 /* main.m */; };
 		ACCEC3C3178C96DD00DBD1B5 /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEC3C2178C96DD00DBD1B5 /* GLAppDelegate.m */; };
-		ACCEC3C5178C96DD00DBD1B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3C4178C96DD00DBD1B5 /* Default.png */; };
-		ACCEC3C7178C96DD00DBD1B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3C6178C96DD00DBD1B5 /* Default@2x.png */; };
-		ACCEC3C9178C96DD00DBD1B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3C8178C96DD00DBD1B5 /* Default-568h@2x.png */; };
+		ACCEC3D1178C99D800DBD1B5 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3D0178C99D800DBD1B5 /* iPhone.storyboard */; };
+		ACCEC3EF178C9E5200DBD1B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3EB178C9E5200DBD1B5 /* Default.png */; };
+		ACCEC3F0178C9E5200DBD1B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3EC178C9E5200DBD1B5 /* Default@2x.png */; };
+		ACCEC3F1178C9E5200DBD1B5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3ED178C9E5200DBD1B5 /* Icon.png */; };
+		ACCEC3F2178C9E5200DBD1B5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEC3EE178C9E5200DBD1B5 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +31,11 @@
 		ACCEC3C0178C96DD00DBD1B5 /* OpenGL Triangle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenGL Triangle-Prefix.pch"; sourceTree = "<group>"; };
 		ACCEC3C1178C96DD00DBD1B5 /* GLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
 		ACCEC3C2178C96DD00DBD1B5 /* GLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
-		ACCEC3C4178C96DD00DBD1B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		ACCEC3C6178C96DD00DBD1B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		ACCEC3C8178C96DD00DBD1B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACCEC3D0178C99D800DBD1B5 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		ACCEC3EB178C9E5200DBD1B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACCEC3EC178C9E5200DBD1B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACCEC3ED178C9E5200DBD1B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ACCEC3EE178C9E5200DBD1B5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				ACCEC3B8178C96DD00DBD1B5 /* OpenGL Triangle */,
+				ACCEC3D2178C9CAC00DBD1B5 /* Resources */,
 				ACCEC3B1178C96DD00DBD1B5 /* Frameworks */,
 				ACCEC3B0178C96DD00DBD1B5 /* Products */,
 			);
@@ -78,6 +83,7 @@
 		ACCEC3B8178C96DD00DBD1B5 /* OpenGL Triangle */ = {
 			isa = PBXGroup;
 			children = (
+				ACCEC3D0178C99D800DBD1B5 /* iPhone.storyboard */,
 				ACCEC3C1178C96DD00DBD1B5 /* GLAppDelegate.h */,
 				ACCEC3C2178C96DD00DBD1B5 /* GLAppDelegate.m */,
 				ACCEC3B9178C96DD00DBD1B5 /* Supporting Files */,
@@ -92,11 +98,20 @@
 				ACCEC3BB178C96DD00DBD1B5 /* InfoPlist.strings */,
 				ACCEC3BE178C96DD00DBD1B5 /* main.m */,
 				ACCEC3C0178C96DD00DBD1B5 /* OpenGL Triangle-Prefix.pch */,
-				ACCEC3C4178C96DD00DBD1B5 /* Default.png */,
-				ACCEC3C6178C96DD00DBD1B5 /* Default@2x.png */,
-				ACCEC3C8178C96DD00DBD1B5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACCEC3D2178C9CAC00DBD1B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEC3EB178C9E5200DBD1B5 /* Default.png */,
+				ACCEC3EC178C9E5200DBD1B5 /* Default@2x.png */,
+				ACCEC3ED178C9E5200DBD1B5 /* Icon.png */,
+				ACCEC3EE178C9E5200DBD1B5 /* Icon@2x.png */,
+			);
+			name = Resources;
+			path = "OpenGL Triangle/Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +121,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACCEC3CC178C96DD00DBD1B5 /* Build configuration list for PBXNativeTarget "OpenGL Triangle" */;
 			buildPhases = (
+				ACCEC3CF178C99A200DBD1B5 /* ShellScript */,
 				ACCEC3AB178C96DD00DBD1B5 /* Sources */,
 				ACCEC3AC178C96DD00DBD1B5 /* Frameworks */,
 				ACCEC3AD178C96DD00DBD1B5 /* Resources */,
@@ -152,13 +168,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEC3BD178C96DD00DBD1B5 /* InfoPlist.strings in Resources */,
-				ACCEC3C5178C96DD00DBD1B5 /* Default.png in Resources */,
-				ACCEC3C7178C96DD00DBD1B5 /* Default@2x.png in Resources */,
-				ACCEC3C9178C96DD00DBD1B5 /* Default-568h@2x.png in Resources */,
+				ACCEC3D1178C99D800DBD1B5 /* iPhone.storyboard in Resources */,
+				ACCEC3EF178C9E5200DBD1B5 /* Default.png in Resources */,
+				ACCEC3F0178C9E5200DBD1B5 /* Default@2x.png in Resources */,
+				ACCEC3F1178C9E5200DBD1B5 /* Icon.png in Resources */,
+				ACCEC3F2178C9E5200DBD1B5 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACCEC3CF178C99A200DBD1B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbN=$((0x$bN))\nbN=$(($bN + 1))\nbN=$(printf \"%X\" $bN)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACCEC3AB178C96DD00DBD1B5 /* Sources */ = {
