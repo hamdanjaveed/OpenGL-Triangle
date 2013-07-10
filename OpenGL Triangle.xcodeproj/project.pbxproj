@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC3C5EFC178CB94B0042B7A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3C5EFB178CB94B0042B7A4 /* Default-568h@2x.png */; };
 		AC3C5F00178CB9EE0042B7A4 /* GLEUContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C5EFF178CB9EE0042B7A4 /* GLEUContext.m */; };
+		AC3C5F03178CD0270042B7A4 /* GLEUVertexAttributeArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C5F02178CD0270042B7A4 /* GLEUVertexAttributeArrayBuffer.m */; };
 		ACCEC3B3178C96DD00DBD1B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3B2178C96DD00DBD1B5 /* UIKit.framework */; };
 		ACCEC3B5178C96DD00DBD1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3B4178C96DD00DBD1B5 /* Foundation.framework */; };
 		ACCEC3B7178C96DD00DBD1B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEC3B6178C96DD00DBD1B5 /* CoreGraphics.framework */; };
@@ -30,6 +31,9 @@
 		AC3C5EFB178CB94B0042B7A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AC3C5EFE178CB9EE0042B7A4 /* GLEUContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLEUContext.h; path = GLEU/GLEUContext.h; sourceTree = "<group>"; };
 		AC3C5EFF178CB9EE0042B7A4 /* GLEUContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLEUContext.m; path = GLEU/GLEUContext.m; sourceTree = "<group>"; };
+		AC3C5F01178CD0270042B7A4 /* GLEUVertexAttributeArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLEUVertexAttributeArrayBuffer.h; path = GLEU/GLEUVertexAttributeArrayBuffer.h; sourceTree = "<group>"; };
+		AC3C5F02178CD0270042B7A4 /* GLEUVertexAttributeArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLEUVertexAttributeArrayBuffer.m; path = GLEU/GLEUVertexAttributeArrayBuffer.m; sourceTree = "<group>"; };
+		AC3C5F04178CD9170042B7A4 /* GLEU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLEU.h; path = GLEU/GLEU.h; sourceTree = "<group>"; };
 		ACCEC3AF178C96DD00DBD1B5 /* OpenGL Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL Triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCEC3B2178C96DD00DBD1B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ACCEC3B4178C96DD00DBD1B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,8 +76,11 @@
 		AC3C5EFD178CB9AC0042B7A4 /* GLEU */ = {
 			isa = PBXGroup;
 			children = (
+				AC3C5F04178CD9170042B7A4 /* GLEU.h */,
 				AC3C5EFE178CB9EE0042B7A4 /* GLEUContext.h */,
 				AC3C5EFF178CB9EE0042B7A4 /* GLEUContext.m */,
+				AC3C5F01178CD0270042B7A4 /* GLEUVertexAttributeArrayBuffer.h */,
+				AC3C5F02178CD0270042B7A4 /* GLEUVertexAttributeArrayBuffer.m */,
 			);
 			name = GLEU;
 			sourceTree = "<group>";
@@ -237,6 +244,7 @@
 				ACCEC3C3178C96DD00DBD1B5 /* GLAppDelegate.m in Sources */,
 				ACCEC401178C9F9D00DBD1B5 /* GLTriangleViewController.m in Sources */,
 				AC3C5F00178CB9EE0042B7A4 /* GLEUContext.m in Sources */,
+				AC3C5F03178CD0270042B7A4 /* GLEUVertexAttributeArrayBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
